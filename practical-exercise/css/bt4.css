@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+body{
+    background: #ebebeb;
+}
+.wrapper{
+    width: 100%;
+    height: 55px;
+    background: #fed700;
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.left{
+    width: 35%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.right{
+    width: 65%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    padding: 10px;
+    float: left;
+}
+i.logo-image{
+    background: url(../images/icondesktop@1x.png) 0 0 no-repeat;
+    width: 156px;
+    height: 30px;
+    float: left;
+}
+form{
+    background: #fff;
+    width: 230px;
+    height: 35x;
+    border-radius: 5px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 85%;
+    height: 35px;
+    text-indent: 12px;
+    margin-left: 5px;
+    float: left;
+}
+button{
+    width: 15%;
+    float: right;
+    margin-right: 5px;
+    background: none;
+}
+button i{
+    color: #ccc;
+    font-size: 20px;
+}
+.right div{
+    float: left;
+    text-align: center;
+    padding: 0 10px;
+}
+.right div i{
+    font-size: 24px;
+    color: #454545;
+}
+.right div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+.right div:nth-child(9), .right div:last-child{
+    height: 100%;
+    border-left: 1px solid #454545;
+    display: flex;
+    align-items: center;
+}
+.right div:nth-child(9) p, .right div:last-child p{
+    text-transform: initial;
+    font-size: 13px;
+    margin-top: 0;  
+}
+
